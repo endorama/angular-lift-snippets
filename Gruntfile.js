@@ -18,6 +18,8 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-clean')
 
+  grunt.registerTask('default', [ 'clean', 'wrap' ])
+
   grunt.registerTask('wrap', 'Wraps source files with specified header and footer', function () {
     var data = grunt.config('wrap')
     var files = grunt.file.expand(data.files.src)
