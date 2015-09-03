@@ -1,0 +1,6 @@
+]]></content>
+  <!-- Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger><%= trigger %></tabTrigger>
+  <!-- Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

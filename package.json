@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "angular-lift-snippets",
+  "version": "1.0.0",
+  "description": "AngularJS Snippets based on the LIFT principle described by John Papa",
+  "main": "null",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/endorama/angular-lift-snippets.git"
+  },
+  "keywords": [
+    "angular",
+    "lift",
+    "snippets",
+    "sublime-text"
+  ],
+  "author": "Edoardo Tenani <edoardo.tenani@gmail.com> (http://about.me/edoardo.tenani)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/endorama/angular-lift-snippets/issues"
+  },
+  "homepage": "https://github.com/endorama/angular-lift-snippets",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
