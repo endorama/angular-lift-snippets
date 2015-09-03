@@ -5,6 +5,7 @@ var path = require('path')
 module.exports = function (grunt) {
 
   grunt.initConfig({
+    clean: [ 'snippets/*' ],
     wrap: {
       files: {
         dest: 'snippets',
@@ -14,6 +15,8 @@ module.exports = function (grunt) {
       footer: 'sublime/snippet-footer.txt'
     }
   })
+
+  grunt.loadNpmTasks('grunt-contrib-clean')
 
   grunt.registerTask('wrap', 'Wraps source files with specified header and footer', function () {
     var data = grunt.config('wrap')
