@@ -7,7 +7,7 @@
     .controller('$2', $2)
 
   /* @ngInject */
-  function $2 ($scope) {
+  function $2 (\$scope) {
     var vm = this
 
     activate()
@@ -19,7 +19,7 @@
     }
 
     // deregister event handlers
-    $scope.$on('$destroy', function () {})
+    \$scope.\$on('\$destroy', function () {})
   }
 
 }(window.angular))
