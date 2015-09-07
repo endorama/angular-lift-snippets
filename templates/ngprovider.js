@@ -11,8 +11,6 @@
     .module('$1')
     .provider('$3', $3)
 
-  // $3.\$inject = [ ]
-
   /* @ngInject */
   function $3 () {
     var self = this
@@ -25,7 +23,7 @@
     /* allow defaults override */
     self.options = overrideOptions
 
-    self.\$get = $3Service
+    self.\$get = ConstructorFor$3Service
 
     return self
 
@@ -37,7 +35,7 @@
     }
 
     /* @ngInject */
-    function $3Service () {
+    function ConstructorFor$3Service () {
 
       $5
 
