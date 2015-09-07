@@ -1,35 +1,32 @@
-<!-- this file has been generated from templates/ngfilter.js on 07 September 2015 -->
+<!-- this file has been generated from templates/ngrun.js on 07 September 2015 -->
 <snippet>
   <content><![CDATA[
 (function (angular) {
   'use strict'
+  // https://github.com/johnpapa/angular-styleguide#run-blocks
 
   /**
-    $1[$3]
+    $1
 
-    $2
+    Run configurations for $1
    */
 
   angular
     .module('$1')
-    .filter('$3', $3)
+    .run(Run$1)
 
   /* @ngInject */
-  function $3 () {
-    return applyFilter
+  function Run$1 ($2) {
 
-    function applyFilter (input) {
+    $3
 
-      return $4
-
-    }
   }
 
 }(window.angular))
 
 ]]></content>
   <!-- Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ngfilter</tabTrigger>
+  <tabTrigger>ngrun</tabTrigger>
   <!-- Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
 </snippet>

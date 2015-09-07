@@ -1,4 +1,4 @@
-<!-- this file has been generated from templates/ngcontroller.js on 03 September 2015 -->
+<!-- this file has been generated from templates/ngcontroller.js on 07 September 2015 -->
 <snippet>
   <content><![CDATA[
 (function (angular) {
@@ -10,7 +10,7 @@
     .controller('$2', $2)
 
   /* @ngInject */
-  function $2 ($scope) {
+  function $2 (\$scope) {
     var vm = this
 
     activate()
@@ -22,7 +22,7 @@
     }
 
     // deregister event handlers
-    $scope.$on('$destroy', function () {})
+    \$scope.\$on('\$destroy', function () {})
   }
 
 }(window.angular))

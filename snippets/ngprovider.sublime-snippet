@@ -1,4 +1,4 @@
-<!-- this file has been generated from templates/ngprovider.js on 03 September 2015 -->
+<!-- this file has been generated from templates/ngprovider.js on 07 September 2015 -->
 <snippet>
   <content><![CDATA[
 (function (angular) {
@@ -14,8 +14,6 @@
     .module('$1')
     .provider('$3', $3)
 
-  // $3.\$inject = [ ]
-
   /* @ngInject */
   function $3 () {
     var self = this
@@ -28,7 +26,7 @@
     /* allow defaults override */
     self.options = overrideOptions
 
-    self.\$get = $3Service
+    self.\$get = ConstructorFor$3Service
 
     return self
 
@@ -40,7 +38,7 @@
     }
 
     /* @ngInject */
-    function $3Service () {
+    function ConstructorFor$3Service () {
 
       $5
 

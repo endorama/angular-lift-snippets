@@ -1,21 +1,22 @@
-<!-- this file has been generated from templates/ngconfig.js on 03 September 2015 -->
+<!-- this file has been generated from templates/ngconfig.js on 07 September 2015 -->
 <snippet>
   <content><![CDATA[
 (function (angular) {
   'use strict'
-
+  // https://github.com/johnpapa/angular-styleguide#configuration-1
+  
   /**
     $1
 
-    Startup configurations for $1
+    Startup configurations for $2
    */
 
   angular
     .module('$1')
-    .config($2)
+    .config($2_Configuration)
 
   /* @ngInject */
-  function $2 ($3) {
+  function $2_Configuration ($3) {
 
     $4
 

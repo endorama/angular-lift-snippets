@@ -1,4 +1,4 @@
-<!-- this file has been generated from templates/ngservice.js on 03 September 2015 -->
+<!-- this file has been generated from templates/ngservice.js on 07 September 2015 -->
 <snippet>
   <content><![CDATA[
 (function (angular) {
