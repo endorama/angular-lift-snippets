@@ -1,4 +1,4 @@
-<!-- this file has been generated from templates/ngprovider.js on 07 September 2015 -->
+<!-- this file has been generated from templates/ngprovider.js on 08 September 2015 -->
 <snippet>
   <content><![CDATA[
 (function (angular) {
@@ -39,8 +39,30 @@
 
     /* @ngInject */
     function ConstructorFor$3Service () {
+      var self = this
 
-      $5
+      var _private = null
+
+      self.instanceVariable = null
+      
+      self.instanceMethod = _instanceMethod
+
+      __constructor()
+      return self
+
+      // -------
+
+      // default constructor, run before return
+      function __constructor () {}
+
+      // instance methods
+      function _instanceMethod () {}
+
+      // private methods
+      function __privateMethod () {}
+
+      // no room for 'static' methods, because a service is invoked using new
+      // Service(), so there should be no reason to use a static method
 
     }
 
