@@ -18,20 +18,28 @@
 
     var _private = null
 
+    self.instanceVariable = null
+    
+    self.instanceMethod = _instanceMethod
+
+    __constructor()
+    return self
+
+    // -------
+
     // default constructor, run before return
-    var __construct = function () {}
+    function __constructor () {}
 
     // instance methods
-    self.fooInstanceMethod = function () {}
+    function _instanceMethod () {
+      var self = this
+    }
 
     // private methods
-    var _privateMethod = function () {}
+    function __privateMethod () {}
 
     // no room for 'static' methods, because a service is invoked using new
     // Service(), so there should be no reason to use a static method
-
-    __construct()
-    return this
 
   }
 
